@@ -1,13 +1,13 @@
 {
   "1": {
-    "name": "Cadet",
+    "name": "[S0] Cadet",
     "requirements": {
       "Orientations": 1,
       "Cadet Exam": 1
     }
   },
   "10": {
-    "name": "Probationary Officer",
+    "name": "[S1] Probationary Officer",
     "requirements": {
       "Combat Training": 1,
       "Drills": 1,
@@ -15,19 +15,19 @@
     }
   },
   "20": {
-    "name": "Officer",
-    "requirements": {
-      "Combat Training": 2,
-      "Drills": 2,
-      "Patrols": 1
-    }
-  },
- "30": {
-    "name": "Senior Officer",
+    "name": "[S2] Officer",
     "requirements": {
       "Combat Training": 3,
       "Drills": 3,
-      "Patrols": 3
+      "Patrols": 2
+    }
+  },
+  "30": {
+    "name": "[S3] Senior Officer",
+    "requirements": {
+      "Combat Training": 6,
+      "Drills": 6,
+      "Patrols": 5
     }
   }
 }
